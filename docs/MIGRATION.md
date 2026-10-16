@@ -11,7 +11,6 @@ If you migrate, replace the path `deno.land/x` with JSR's.
 ```ts
 // From
 import { Hono } from 'https://deno.land/x/hono/mod.ts'
-
 // To
 import { Hono } from 'jsr:@hono/hono'
 ```
@@ -226,8 +225,8 @@ import { Hono, poweredBy } from 'https://deno.land/x/hono/mod.ts' // <--- NG
 To import middleware, use `hono/middleware.ts`:
 
 ```ts
-import { Hono } from 'https://deno.land/x/hono/mod.ts'
 import { poweredBy, basicAuth } from 'https://deno.land/x/hono/middleware.ts'
+import { Hono } from 'https://deno.land/x/hono/mod.ts'
 ```
 
 ### Cookie middleware is obsolete
