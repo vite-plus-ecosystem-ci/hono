@@ -2,7 +2,7 @@ import { Hono } from 'hono'
 import { bodyLimit } from 'hono/body-limit'
 import { setCookie } from 'hono/cookie'
 import { decodeBase64, encodeBase64 } from 'hono/utils/encode'
-import { describe } from 'vitest'
+import { describe } from 'vite-plus/test'
 import type { Callback, CloudFrontEdgeEvent, CloudFrontRequest } from './handler'
 import { createBody, handle, isContentTypeBinary } from './handler'
 

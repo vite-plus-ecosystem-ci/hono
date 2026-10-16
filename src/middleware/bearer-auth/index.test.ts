@@ -1,4 +1,4 @@
-import { expectTypeOf } from 'vitest'
+import { expectTypeOf } from 'vite-plus/test'
 import { bearerAuth } from '.'
 import { Hono } from '../../hono'
 import type { Context, MiddlewareHandler } from '../../index'

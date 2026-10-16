@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import { vi } from 'vitest'
+import { vi } from 'vite-plus/test'
 import { encodeBase64, encodeBase64Url } from '../encode'
 import { AlgorithmTypes } from './jwa'
 import type { HonoJsonWebKey } from './jws'

@@ -1,4 +1,4 @@
-import { vi } from 'vitest'
+import { vi } from 'vite-plus/test'
 import { cache } from '.'
 import type { ExecutionContext } from '../../context'
 import { Hono } from '../../hono'
