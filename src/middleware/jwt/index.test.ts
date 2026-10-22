@@ -1,4 +1,4 @@
-import { describe, expectTypeOf } from 'vitest'
+import { describe, expectTypeOf } from 'vite-plus/test'
 import { jwt } from '.'
 import type { JwtVariables } from '.'
 import { Hono } from '../../hono'

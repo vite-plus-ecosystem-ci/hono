@@ -4,7 +4,7 @@ import { createRequire } from 'node:module'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 
 const compiler = createRequire(import.meta.url).resolve('typescript/bin/tsc')
 const fixture = fileURLToPath(new URL('./fixtures/declaration-emit', import.meta.url))

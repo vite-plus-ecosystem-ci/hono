@@ -3,7 +3,7 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import { HttpResponse, http } from 'msw'
 import { setupServer } from 'msw/node'
-import { expectTypeOf, vi } from 'vitest'
+import { expectTypeOf, vi } from 'vite-plus/test'
 import { upgradeWebSocket } from '../adapter/deno/websocket'
 import { Hono } from '../hono'
 import { parse } from '../utils/cookie'
