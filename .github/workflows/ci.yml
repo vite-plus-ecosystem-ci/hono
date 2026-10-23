@@ -32,7 +32,11 @@ jobs:
           pattern: coverage-*
           merge-multiple: true
           path: ./coverage
-      - uses: codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f # v7.0.0
+      # Ecosystem-ci smoke test: the Codecov upload needs a token the fork does not
+      # have, and it does not exercise the pinned Vite+.
+      - name: Upload coverage to Codecov
+        if: ${{ github.repository_owner != 'vite-plus-ecosystem-ci' }}
+        uses: codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f # v7.0.0
         with:
           fail_ci_if_error: true
           directory: ./coverage
