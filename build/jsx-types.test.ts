@@ -1,7 +1,7 @@
 import { spawnSync } from 'node:child_process'
 import { createRequire } from 'node:module'
 import { fileURLToPath } from 'node:url'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 
 const compiler = createRequire(import.meta.url).resolve('typescript/bin/tsc')
 const project = fileURLToPath(new URL('./fixtures/jsx-types/tsconfig.json', import.meta.url))

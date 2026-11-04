@@ -1,4 +1,4 @@
-import { vi } from 'vitest'
+import { vi } from 'vite-plus/test'
 import type { LambdaEvent } from '../src/handler'
 import type { LambdaContext } from '../src/types'
 

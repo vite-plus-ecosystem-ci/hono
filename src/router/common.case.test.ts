@@ -1,4 +1,4 @@
-import type { RunnerTestSuite } from 'vitest'
+import type { RunnerTestSuite } from 'vite-plus/test'
 import type { ParamIndexMap, Params, Router } from '../router'
 
 const getSuiteHierarchy = (suite?: RunnerTestSuite) => {

@@ -1,5 +1,5 @@
 /** @jsxImportSource ../../jsx */
-import { expectTypeOf } from 'vitest'
+import { expectTypeOf } from 'vite-plus/test'
 import { jsxRenderer, useRequestContext } from '.'
 import { html } from '../../helper/html'
 import { Hono } from '../../hono'
