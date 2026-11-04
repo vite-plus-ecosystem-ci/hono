@@ -42,7 +42,7 @@ describe('JSX middleware', () => {
 
   it('Should be able to be used with html middleware', async () => {
     const Layout = (props: SiteData) =>
-      html`<!DOCTYPE html>
+      html`<!doctype html>
         <html>
           <head>
             <title>${props.title}</title>
