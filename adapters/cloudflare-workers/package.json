@@ -35,6 +35,7 @@
     "hono": "workspace:*",
     "wrangler": "4.107.0",
     "ws": "^8.21.0",
-    "@types/ws": "^8.18.1"
+    "@types/ws": "^8.18.1",
+    "vitest": "catalog:"
   }
 }

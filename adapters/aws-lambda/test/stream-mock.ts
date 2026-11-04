@@ -1,5 +1,5 @@
 import { Writable } from 'node:stream'
-import { vi } from 'vitest'
+import { vi } from 'vite-plus/test'
 import type { APIGatewayProxyEvent, APIGatewayProxyEventV2 } from '../src/handler'
 import type { LambdaContext } from '../src/types'
 
