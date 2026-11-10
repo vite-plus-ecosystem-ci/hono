@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import { expectTypeOf } from 'vitest'
+import { expectTypeOf } from 'vite-plus/test'
 import { hc } from './client'
 import type { Context, ExecutionContext } from './context'
 import { Hono } from './hono'

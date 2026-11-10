@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { expectTypeOf } from 'vitest'
+import { expectTypeOf } from 'vite-plus/test'
 import { hc } from '../../client'
 import type { ClientRequest } from '../../client/types'
 import { Hono } from '../../index'

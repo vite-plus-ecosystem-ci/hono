@@ -1,4 +1,4 @@
-import { describe } from 'vitest'
+import { describe } from 'vite-plus/test'
 import { setCookie } from '../../helper/cookie'
 import { Hono } from '../../hono'
 import { bodyLimit } from '../../middleware/body-limit'
